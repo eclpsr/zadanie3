@@ -28,7 +28,6 @@ output.push(slovo.toUpperCase());
 movehuman.push(goroda[i].toUpperCase());
 buffer = slovo;
 geocodebuffer = slovo;
-geocodebuffer = geocodebuffer.toUpperCase();
 count++;
 goroda.splice(goroda.indexOf(goroda[i]), 1);
 document.getElementById("output").innerHTML = output;
@@ -50,7 +49,6 @@ if( a == b ){
 output.push(goroda[i].toUpperCase());
 movecomputer.push(goroda[i].toUpperCase());
 compbuff = goroda[i];
-compbuff = compbuff.toUpperCase();
 goroda.splice(goroda.indexOf(goroda[i]), 1);
 document.getElementById("output").innerHTML = output;
 
