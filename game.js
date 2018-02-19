@@ -114,6 +114,7 @@ var map = new google.maps.Map(document.getElementById('map'), {
 		  geocodebuffer = [];
 		  movehuman = [];
 		  movecomputer = [];
+		  count = 0;
 		  
 	  }
 ;  
