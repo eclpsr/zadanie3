@@ -14,9 +14,8 @@ var count = 0;
 
 	  
 function player(){
-	
+goroda.sort(() => Math.random() - 0.5);	
 slovo = document.getElementById("address").value;
-
 slovo = slovo.toLowerCase();
 
 if (compbuff.length == 0 || slovo.charAt(0) == compbuff.charAt( compbuff.length - 1 )){
